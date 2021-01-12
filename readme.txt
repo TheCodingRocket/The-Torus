@@ -1,6 +1,7 @@
-This week I wanted to learn more about mathematics. And what better way to do that than to re-learn geometry. Specifically a torus.
+This week I wanted to learn more about mathematics. And what better way to do that than to re-learn geometry. Specifically, re-learning the torus.
 
 Assuming a 2-D torus, the diameter will be the number of links required to get from the center to one of the corners (any further and we can just go in the opposite direction). Thus we will have to traverse (op-12) over each dimension, thus the diameter is D = /p - 1 for a p processor torus.
+
 I implemented that formula to make a 3D simulation of a spinning torus. I use the torus's diameter formula to make the pluros tori also known as the surface of revolution, combined with Andy Sloane's Mathematics -> "The famous spinning Donut".
 
             k;double sin()
